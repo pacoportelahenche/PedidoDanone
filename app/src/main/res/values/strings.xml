@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Danone</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="nombre">Nombre</string>
+    <string name="pedido">Pedido</string>
+    <string name="devolucion">Devol.</string>
+    <string name="boton_aceptar">Aceptar</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <string name="title_activity_actividad_editar">Modificar ó borrar producto</string>
+    <string name="ayuda">Ayuda</string>
+</resources>

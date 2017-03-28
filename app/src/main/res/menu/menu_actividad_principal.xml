@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ActividadPrincipal">
+    <item
+        android:id="@+id/enviar"
+        app:showAsAction="never"
+        android:title="Enviar pedido"/>
+    <item
+        android:id="@+id/borrar"
+        app:showAsAction="never"
+        android:title="Borrar pedido"/>
+    <item
+        android:id="@+id/anadir"
+        app:showAsAction="never"
+        android:title="Añadir producto"/>
+    <item
+        android:id="@+id/ayuda"
+        app:showAsAction="never"
+        android:title="Ayuda"/>
+</menu>

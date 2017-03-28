@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tvNombreYogur"
+        android:layout_weight="4"
+        android:textColor="#0b2af2"
+        android:focusable="false"
+        android:contextClickable="false" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etCtaPedida"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:text="1"
+        android:editable="false"
+        android:digits="0123456789" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etCtaDevolucion"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textColor="#f60a0a"
+        android:text="0"
+        android:digits="0123456789" />
+</LinearLayout>
