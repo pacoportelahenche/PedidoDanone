@@ -35,7 +35,7 @@ import java.util.Set;
 
 public class ActividadPrincipal extends AppCompatActivity {
     private static List<Dato> listaDatos = new ArrayList<Dato>();
-    private static String direccionCorreo = "danpedidos@danpedidos.com";
+    private static String direccionCorreo = "****@****.com";
     private static String asunto = "Elco: 350053637";
     private static String saludo = "Muchas gracias y un cordial saludo.";
     //private static String paco = "pacoportela@yahoo.com";
